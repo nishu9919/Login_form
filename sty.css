@@ -1,0 +1,70 @@
+body {
+    background-image: url(cdd.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.login-page {
+    width: 360px;
+    padding: 10% 0 0;
+    margin: auto;
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    background-color: rgba(8, 40, 158, 0.5);
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+}
+
+.form input {
+    font-family: sans-serif, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    outline: 1;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 12px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form button {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    padding: 15px;
+    background-color: green;
+    width: 100%;
+    padding: 12px;
+    margin: 0, 0, 15px;
+    font-size: 14px;
+    color: white;
+    border: 0px;
+    box-sizing: border-box;
+    box-shadow: whitesmoke;
+    cursor: pointer;
+}
+
+.form button:hover,
+.form button:active {
+    outline: 0;
+    background: greenyellow;
+}
+
+.form .msg {
+    margin: 15px 0 0;
+    color: cornsilk;
+    font-size: 15px;
+}
+
+.form .msg a {
+    text-decoration: none;
+    color: green;
+}
+
+.form .reg-from {
+    display: none;
+}
